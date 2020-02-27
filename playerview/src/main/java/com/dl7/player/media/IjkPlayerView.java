@@ -824,7 +824,7 @@ public class IjkPlayerView extends FrameLayout implements View.OnClickListener {
      *
      * @param timeout 延迟隐藏时间
      */
-    private void _showControlBar(int timeout) {
+    public void _showControlBar(int timeout) {
         if (!mIsShowBar) {
             _setProgress();
             mIsShowBar = true;
